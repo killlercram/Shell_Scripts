@@ -1,0 +1,21 @@
+#!/bin/bash
+
+#This is Jetha Lal ki Duniya
+<< comment
+This is multi line comment
+comment
+
+name="Natu Kaka"
+
+echo "Name is $name,and the date is $(date)"
+
+echo "Enter the Name:"
+
+read userName
+
+echo "The Name you entered is $userName"
+
+
+#Putting Arguments
+
+echo "The characters in $0 $1"
