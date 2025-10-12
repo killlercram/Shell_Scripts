@@ -10,7 +10,7 @@ REPO_PATH = "."
 os.chdir(REPO_PATH)
 
 #updating or creating a file
-with open("log.txt, "a") as f:
+with open("log.txt", "a") as f:
     f.write(f"Automated commit on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
 
 #git operations
